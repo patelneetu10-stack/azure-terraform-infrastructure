@@ -42,6 +42,12 @@ subnets = {
     virtual_network_name = "varun-vnet2"
     address_prefixes     = ["10.1.4.0/24"]
   }
+   subnet8 = {
+    name                 = "database-subnet4"
+    resource_group_name  = "mana-rg2"
+    virtual_network_name = "varun-vnet2"
+    address_prefixes     = ["10.1.5.0/24"]
+  }
 }
 
        
